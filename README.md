@@ -14,7 +14,7 @@ The project follows a structured four-stage approach for each attack:
 
 This methodology provided me with both red team (offensive) and blue team (defensive) perspectives, strengthening my understanding of AD security.
 
-# 🔐 Attacks Covered
+## 🔐 Attacks Covered
 
 - 🟡 LLMNR Poisoning
 
@@ -43,3 +43,29 @@ This methodology provided me with both red team (offensive) and blue team (defen
 - Endpoint Logging: Sysmon + Wazuh Agent
 
 All machines were placed in a 192.168.1.0/24 subnet for controlled attack simulations.
+
+# 📊 Tools & Technologies
+
+- Attacker Tools: Responder, Impacket, Hashcat, BloodHound
+
+- Defensive Tools: Wazuh, Sysmon
+
+- Monitoring: SIEM dashboards, Event logs
+
+#🛡️ Key Learnings
+
+- How attackers exploit AD misconfigurations and weak passwords.
+
+- How to detect suspicious activities via log correlation in Wazuh.
+
+- Importance of password policies, privilege management, and secure Kerberos configurations.
+
+- Real-world mapping of attacks to MITRE ATT&CK techniques.
+
+#📖 Conclusion
+
+This project helped me gain comprehensive insights into AD security, balancing offensive and defensive perspectives. While the lab was intentionally configured with weak defenses, the exercise demonstrated how proper hardening, monitoring, and detection can prevent these attacks in real-world environments.
+
+I plan to extend this work in the future by covering more advanced AD attacks.
+
+
