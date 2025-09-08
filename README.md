@@ -13,3 +13,33 @@ The project follows a structured four-stage approach for each attack:
 - Detection – Monitoring attack behavior using Wazuh SIEM + Sysmon.
 
 This methodology provided me with both red team (offensive) and blue team (defensive) perspectives, strengthening my understanding of AD security.
+
+# 🔐 Attacks Covered
+
+- 🟡 LLMNR Poisoning
+
+- 🟡 SMB Relay
+
+- 🟡 Kerberoasting (with Pass-the-Hash)
+
+- 🟡 Silver Ticket
+
+- 🟡 DCSync
+
+- 🟡 Golden Ticket
+
+- 🟡 BloodHound Enumeration (high- and low-privileged users)
+
+## ⚙️ Lab Setup
+
+- Domain Controller (Windows Server)
+
+- Two Client Machines (Windows 11)
+
+- Attacker Machine (Kali Linux)
+
+- SIEM: Wazuh (OVA deployment)
+
+- Endpoint Logging: Sysmon + Wazuh Agent
+
+All machines were placed in a 192.168.1.0/24 subnet for controlled attack simulations.
