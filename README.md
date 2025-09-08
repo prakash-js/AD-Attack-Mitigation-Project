@@ -4,12 +4,12 @@ This project is a hands-on exploration of Active Directory (AD) attacks and thei
 
 The project follows a structured four-stage approach for each attack:
 
-Explanation – Understanding the attack and its potential impact.
+- Explanation – Understanding the attack and its potential impact.
 
-Initiation – Step-by-step execution of the attack in a lab.
+- Initiation – Step-by-step execution of the attack in a lab.
 
-Mitigation – Defensive measures to protect AD environments.
+- Mitigation – Defensive measures to protect AD environments.
 
-Detection – Monitoring attack behavior using Wazuh SIEM + Sysmon.
+- Detection – Monitoring attack behavior using Wazuh SIEM + Sysmon.
 
 This methodology provided me with both red team (offensive) and blue team (defensive) perspectives, strengthening my understanding of AD security.
