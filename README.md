@@ -4,13 +4,13 @@ This project is a hands-on exploration of Active Directory (AD) attacks and thei
 
 The project follows a structured four-stage approach for each attack:
 
-- *Explanation* – Understanding the attack and its potential impact.
+- **Explanation** – Understanding the attack and its potential impact.
 
-- Initiation – Step-by-step execution of the attack in a lab.
+- **Initiation** – Step-by-step execution of the attack in a lab.
 
-- Mitigation – Defensive measures to protect AD environments.
+- **Mitigation** – Defensive measures to protect AD environments.
 
-- Detection – Monitoring attack behavior using Wazuh SIEM + Sysmon.
+- **Detection** – Monitoring attack behavior using Wazuh SIEM + Sysmon.
 
 This methodology provided me with both red team (offensive) and blue team (defensive) perspectives, strengthening my understanding of AD security.
 
@@ -46,11 +46,11 @@ All machines were placed in a 192.168.1.0/24 subnet for controlled attack simula
 
 # 📊 Tools & Technologies
 
-- Attacker Tools: Responder, Impacket, Hashcat, BloodHound
+- **Attacker Tools:** Responder, Impacket, Hashcat, BloodHound
 
-- Defensive Tools: Wazuh, Sysmon
+- **Defensive Tools:** Wazuh, Sysmon
 
-- Monitoring: SIEM dashboards, Event logs
+- **Monitoring:** SIEM dashboards, Event logs
 
 # 🛡️ Key Learnings
 
