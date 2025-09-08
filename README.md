@@ -4,7 +4,7 @@ This project is a hands-on exploration of Active Directory (AD) attacks and thei
 
 The project follows a structured four-stage approach for each attack:
 
-- Explanation – Understanding the attack and its potential impact.
+- *Explanation* – Understanding the attack and its potential impact.
 
 - Initiation – Step-by-step execution of the attack in a lab.
 
@@ -52,7 +52,7 @@ All machines were placed in a 192.168.1.0/24 subnet for controlled attack simula
 
 - Monitoring: SIEM dashboards, Event logs
 
-#🛡️ Key Learnings
+# 🛡️ Key Learnings
 
 - How attackers exploit AD misconfigurations and weak passwords.
 
@@ -62,7 +62,7 @@ All machines were placed in a 192.168.1.0/24 subnet for controlled attack simula
 
 - Real-world mapping of attacks to MITRE ATT&CK techniques.
 
-#📖 Conclusion
+# 📖 Conclusion
 
 This project helped me gain comprehensive insights into AD security, balancing offensive and defensive perspectives. While the lab was intentionally configured with weak defenses, the exercise demonstrated how proper hardening, monitoring, and detection can prevent these attacks in real-world environments.
 
